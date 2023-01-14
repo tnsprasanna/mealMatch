@@ -1,0 +1,66 @@
+<!-- Recipe Finder Website -->
+
+<!DOCTYPE html>
+<html lang = "en">
+
+<!-- Head -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/2f136eaac5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100;0,400;0,600;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <!-- <link rel="shortcut icon" type="image/jpg" href="icon.png"/> -->
+</head>
+
+<!-- Body -->
+
+<body>
+    
+    <h1 align="center">meal match</h1>
+
+    <div class="searchbar">
+        <input type="text" id="textSearch" placeholder="enter a recipe..." required>
+    </div>
+
+    <br>
+    <label for="diet">select a diet</label> <br>
+    <select name="dietList" id="dietList">
+        <option value="none">none</option>
+        <option value="gluten-free">gluten-free</option>
+        <option value="ketogenic">ketogenic</option>
+        <option value="vegetarian">vegetarian</option>
+        <option value="lacto-vegetarian">lacto-vegetarian</option>
+        <option value="ovo-vegetarian">ovo-vegetarian</option>
+        <option value="vegan">vegan</option>
+        <option value="pescetarian">pescetarian</option>
+        <option value="paleo">paleo</option>
+        <option value="primal">primal</option>
+        <option value="low FODMAP">low FODMAP</option>
+        <option value="whole30">whole30</option>
+    </select>
+
+    <br> <br>
+    <button class="searchbtn" onclick="search()">search</button>
+    <div class="recipesContainer">
+        
+    </div>
+
+</body>
+
+<!-- Footer
+<footer>
+  <div class=footer-content>
+    <h3 class="connect" align="center">made with love by Prasanna</h3>
+  </div>
+</footer> -->
+
+</html>

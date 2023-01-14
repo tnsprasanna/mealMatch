@@ -1,0 +1,103 @@
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
+}
+  
+body {
+    margin: 0;
+    background-color: #ecdcd9;
+    text-align: center;
+}
+  
+*{
+    box-sizing: border-box;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+h1 {
+    color: #3d5a5b;
+    font-size: 40px;
+}
+
+input {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-style: double;
+    border-color: #3d5a5b;
+    border-width: 5px;
+    border-radius: 25px;
+
+}
+
+label {
+    font-style:italic;
+    font-weight: bold;
+}
+
+.searchbtn {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    width: 11%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #3d5a5b;
+    text-align: center;
+    color: #eee2dc;
+    font-size: 10pt;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+
+}
+
+.searchbtn:hover {
+    color: #eee2dc;
+    box-shadow:5px 5px 15px -2px #2d150a;
+}
+
+
+.recipesContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.item {
+    background-color: #3d5a5b;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 0.5rem;
+    box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+    transition-duration: 0.3s;
+  }
+
+.item:hover {
+    color: #eee2dc;
+    box-shadow:5px 5px 15px -2px #2d150a;
+}
+
+a {
+    color: #eee2dc;
+}
+
+select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 25px;
+    border-width: 2px;
+    border-color: #3d5a5b;
+}
+
