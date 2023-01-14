@@ -6,6 +6,7 @@ html{
   
 body {
     margin: 0;
+    min-height: 100vh;
     background-color: #ecdcd9;
     text-align: center;
 }
@@ -72,6 +73,7 @@ label {
     padding: 0;
     margin: 0;
     list-style: none;
+    padding-bottom: 10px;
 }
 
 .item {
@@ -101,3 +103,25 @@ select {
     border-color: #3d5a5b;
 }
 
+footer {
+    font-family: 'Libre Franklin', sans-serif;
+    position: sticky;
+    top: 100%;
+    background-color: #3d5a5b;
+    text-align: center;
+    color: #ecdcd9;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-top: auto;
+    height: 60%;
+  }
+  
+.connect {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    font-size: 17pt;
+    color: white;
+    margin-right: 1.4em;
+    margin-bottom: 0.1em;
+    margin-top: 0.4em;
+  }
